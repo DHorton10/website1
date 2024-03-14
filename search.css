@@ -1,5 +1,8 @@
 
 
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: greenyellow;
     height: 100vh;
@@ -32,5 +35,9 @@ body {
     height: 50px;
     width: 200px;
     padding: 15px;
-    box-sizing: border-box;
+
+}
+
+.search .input:focus {
+    outline: none;
 }
