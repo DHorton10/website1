@@ -11,6 +11,13 @@ body {
 
 .search {
     height: 200px;
-    width: 200px;
+    width: 300px;
     background-color: blue;
+    position: relative;
+}
+
+.search .btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
